@@ -368,6 +368,8 @@ var doNotCall = td.function()
 td.verify(doNotCall(), {times: 0, ignoreExtraArgs: true}) // passes
 ```
 
+See https://github.com/testdouble/testdouble.js/issues/170#issuecomment-268571603 for an explanation of why you may not want to do this.
+
 ## Congratulations!
 
 And that's everything there is to know about verifying behavior with
